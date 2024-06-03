@@ -18,7 +18,7 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
  
 | Identyfikator | Nazwa                      | Opis                                                                                                     | Priorytet | Kategoria       |
 |---------------|----------------------------|----------------------------------------------------------------------------------------------------------|-----------|-----------------|
-| 1             | Wczytywanie obrazu         | Użytkownik powinien mieć możliwość wczytania obrazu oraz pliku wideo w następujących formatach: JPG, PNG, MP4.| 1         | Funkcjonalne    |
+| 1             | Wczytywanie obrazu         | Użytkownik powinien mieć możliwość wczytania obrazu oraz pliku wideo w następujących formatach: JPEG, PNG, MP4.| 1         | Funkcjonalne    |
 | 2             | Przetwarzanie obrazu       | System powinien automatycznie skalować obraz, aby ułatwić odczyt tekstu z tablicy rejestracyjnej i przyspieszyć działanie programu. | 1         | Funkcjonalne    |
 | 3             | Wykrywanie tablic rejestracyjnych | System powinien automatycznie wykrywać obecność unikalnych tablic rejestracyjnych na obrazie lub pliku wideo, aby użytkownik nie musiał ręcznie zaznaczać tablic. | 1         | Funkcjonalne    |
 | 4             | Segmentacja tablic         | System powinien automatycznie wyodrębniać tablice rejestracyjne z tła obrazu, aby tekst był bardziej czytelny. | 1         | Funkcjonalne    |
@@ -52,13 +52,10 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 ## V. Testy
  
 ### Scenariusze testów:
-- Test wczytywania obrazów: Sprawdzenie, czy system prawidłowo wczytuje obrazy z różnych źródeł (pliki, kamery, strumienie wideo).
-- Test obsługi formatów: Weryfikacja, czy system obsługuje wszystkie wymagane formaty obrazów (JPEG, PNG).
-- Test przetwarzania obrazu: Ocena jakości przetwarzania obrazu przy użyciu algorytmów OpenCV.
-- Test wykrywania tablic: Sprawdzenie skuteczności wykrywania tablic rejestracyjnych na obrazach.
+- Test obsługi formatów: Weryfikacja, czy system obsługuje wszystkie wymagane formaty obrazów (JPEG, PNG) oraz filmów (MP4).
+- Test wykrywania tablic: Sprawdzenie skuteczności wykrywania tablic rejestracyjnych na obrazach lub filmach.
 - Test segmentacji: Weryfikacja poprawności segmentacji tablic rejestracyjnych z tła obrazu.
 - Test odczytu tekstu: Ocena dokładności odczytu tekstu z wykrytych tablic rejestracyjnych.
  
 ### Sprawozdanie z wykonania scenariuszy testów:
-Testy zostały przeprowadzone na zestawie próbek obrazów zawierających tablice rejestracyjne z różnych krajów. Wyniki testów wykazały, że system prawidłowo wczytuje obrazy, obsługuje różne formaty, skutecznie przetwarza obrazy, wykrywa i segmentuje tablice rejestracyjne oraz odczytuje tekst z wysoką dokładnością. Szczegółowe wyniki testów są dostępne w załączonym sprawozdaniu.
- 
+Wszystkie testy zostały przeprowadzone pomyślnie. System poprawnie obsługuje wymagane formaty, skutecznie wykrywa tablice rejestracyjne, prawidłowo segmentuje je z tła oraz dokładnie odczytuje tekst.
