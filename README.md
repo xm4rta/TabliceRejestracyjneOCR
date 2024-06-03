@@ -35,24 +35,19 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
   - OpenCV (Open Source Computer Vision)
   - EasyOCR
   - YOLO (You Only Look Once)
+  - OS (Biblioteka do interakcji z systemem operacyjnym. Umożliwia wykonywanie operacji na plikach, katalogach itp.)
+  - NumPy (Popularna biblioteka do obliczeń numerycznych w języku Python. Zapewnia efektywne struktury danych do pracy z wielowymiarowymi tablicami i macierzami oraz funkcje do wykonywania operacji na tych danych.)
+  - CSV (Biblioteka do manipulacji plikami CSV (Comma Separated Values). Umożliwia czytanie i zapisywanie danych w formacie CSV.)
+  - Ultralytics.YOLO (Implementacja algorytmu YOLO (You Only Look Once) do detekcji obiektów w obrazach. YOLO jest popularnym algorytmem do detekcji obiektów w czasie rzeczywistym.)
+  - Sort.Sort (Implementacja algorytmu SORT (Simple Online and Realtime Tracking) do śledzenia obiektów w sekwencji obrazów.)
+  - Matplotlib.pyplot (Biblioteka do tworzenia wykresów i wizualizacji danych. Umożliwia generowanie różnych rodzajów wykresów, histogramów itp.)
+  - AST (Biblioteka do analizy i manipulacji kodem źródłowym Pythona. Może być używana do analizy składniowej i semantycznej kodu Pythona.)
+  - Pandas (Biblioteka do manipulacji danymi, szczególnie w przypadku danych tabelarycznych. Umożliwia łatwe wczytywanie, przetwarzanie i analizę danych.)
+  - SciPy.interpolate.interp1d (Biblioteka SciPy jest zbiorem narzędzi i algorytmów do obliczeń naukowych w Pythonie. Ta konkretna funkcja służy do interpolacji danych.)
+  - Filterpy (Biblioteka Pythona służąca do implementacji różnych filtrów Bayesowskich, takich jak filtr Kalmana, filtr cząsteczkowy i inne, wykorzystywanych do estymacji stanu w systemach dynamicznych.)
 - Narzędzia wspomagające:
   - Git (do wersjonowania kodu)
   - PyCharm Community (do edycji kodu)
- 
-#### b. Architektura uruchomieniowa - stos technologiczny
-- Język programowania: Python 3.7
-- Biblioteki:
-  - OpenCV (Open Source Computer Vision)
-  - EasyOCR
-  - YOLO (You Only Look Once)
- 
-### Biblioteki:
- 
-- **OpenCV (Open Source Computer Vision):** Biblioteka do przetwarzania obrazów i analizy wideo. Jest często używana do manipulacji obrazami, wykrywania obiektów, przetwarzania wideo itp.
-- **EasyOCR:** Biblioteka do rozpoznawania tekstu w obrazach. Umożliwia odczytywanie tekstu z obrazów, w tym tablic rejestracyjnych pojazdów.
-- **YOLO (You Only Look Once):** Implementacja algorytmu do detekcji obiektów w czasie rzeczywistym.
-- **PyCharm Community:** Środowisko programistyczne do edycji kodu w języku Python.
-- **Git:** System kontroli wersji do zarządzania kodem źródłowym.
  
 ## V. Testy
  
