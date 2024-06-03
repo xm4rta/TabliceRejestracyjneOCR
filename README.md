@@ -23,7 +23,7 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 | 3             | Wykrywanie tablic rejestracyjnych | System powinien automatycznie wykrywać obecność unikalnych tablic rejestracyjnych na obrazie lub pliku wideo, aby użytkownik nie musiał ręcznie zaznaczać tablic. | 1         | Funkcjonalne    |
 | 4             | Segmentacja tablic         | System powinien automatycznie wyodrębniać tablice rejestracyjne z tła obrazu, aby tekst był bardziej czytelny. | 1         | Funkcjonalne    |
 | 5             | Odczyt tekstu z tablic     | System powinien umożliwiać odczyt tekstu z wykrytej tablicy rejestracyjnej, aby użytkownik mógł uzyskać tekst w formie cyfrowej oraz wizualnej. | 1         | Funkcjonalne    |
-| 6            | Wytrenowanie systemu, Testowanie i Ocena         | System powinien zostać nauczony maszynowo rozpoznawania tablic rejestracyjnych oraz przetestowany, aby użytkownik miał pewność co do jakości wyników. | 1         | Niefunkcjonalne |
+| 6            | Wytrenowanie systemu, Testowanie i Ocena         | System powinien zostać nauczony maszynowo rozpoznawania tablic rejestracyjnych oraz przetestowany, aby użytkownik miał pewność co do jakości wyników. | 1         | Funkcjonalne |
 | 7            | Dokumentacja               | Powinna istnieć szczegółowa dokumentacja techniczna zawierająca spis potrzebnych bibliotek oraz przetrenowany model. | 1         | Niefunkcjonalne |
 | 8            | Przykładowe obrazy         | Powinny być udostępnione przykładowe obrazy i film do testowania oraz wyniki, aby użytkownik mógł przetestować system przed jego użyciem. | 2         | Niefunkcjonalne |
  
