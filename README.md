@@ -18,18 +18,14 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
  
 | Identyfikator | Nazwa                      | Opis                                                                                                     | Priorytet | Kategoria       |
 |---------------|----------------------------|----------------------------------------------------------------------------------------------------------|-----------|-----------------|
-| 1             | Wczytywanie obrazu         | Użytkownik powinien mieć możliwość wczytania obrazu z różnych źródeł takich jak pliki obrazowe, strumienie wideo lub kamery. | 1         | Funkcjonalne    |
-| 2             | Obsługa formatów obrazów   | System powinien obsługiwać różne popularne formaty obrazów takie jak JPEG, PNG itp., aby użytkownik mógł korzystać z różnych źródeł obrazów. | 1         | Funkcjonalne    |
-| 3             | Przetwarzanie obrazu       | System powinien automatycznie poprawiać jakość obrazu, aby ułatwić odczyt tekstu z tablicy rejestracyjnej. | 1         | Funkcjonalne    |
-| 4             | Wykrywanie tablic rejestracyjnych | System powinien automatycznie wykrywać obecność tablic rejestracyjnych na obrazie, aby użytkownik nie musiał ręcznie zaznaczać tablic. | 1         | Funkcjonalne    |
-| 5             | Wykrywanie różnych tablic  | System powinien wykrywać tablice rejestracyjne różnych kształtów i rozmiarów, aby użytkownik mógł rozpoznać tablice z różnych krajów. | 1         | Funkcjonalne    |
-| 6             | Segmentacja tablic         | System powinien automatycznie wyodrębniać tablice rejestracyjne z tła obrazu, aby tekst był bardziej czytelny. | 1         | Funkcjonalne    |
-| 7             | Odczyt tekstu z tablic     | System powinien umożliwiać odczyt tekstu z wykrytej tablicy rejestracyjnej, aby użytkownik mógł uzyskać tekst w formie cyfrowej. | 1         | Funkcjonalne    |
-| 8             | Rozpoznawanie znaków       | System powinien wykorzystywać technologie OCR do rozpoznawania znaków na tablicy rejestracyjnej, aby użytkownik otrzymał dokładne wyniki. | 1         | Funkcjonalne    |
-| 10            | Testowanie i ocena         | System powinien być przetestowany pod kątem skuteczności rozpoznawania tablic rejestracyjnych, aby użytkownik miał pewność co do jakości wyników. | 1         | Niefunkcjonalne |
-| 11            | Dostosowanie parametrów    | System powinien umożliwiać dostosowanie parametrów algorytmów, aby użytkownik mógł poprawić wyniki w specyficznych warunkach. | 2         | Niefunkcjonalne |
-| 12            | Dokumentacja               | Powinna istnieć szczegółowa dokumentacja techniczna zawierająca instrukcje instalacji, konfiguracji oraz użytkowania systemu, aby użytkownik mógł łatwo korzystać z systemu. | 1         | Niefunkcjonalne |
-| 13            | Przykładowe obrazy         | Powinny być udostępnione przykładowe obrazy do testowania oraz wyniki, aby użytkownik mógł przetestować system przed jego użyciem. | 2         | Niefunkcjonalne |
+| 1             | Wczytywanie obrazu         | Użytkownik powinien mieć możliwość wczytania obrazu oraz pliku wideo w następujących formatach: JPG, PNG, MP4.| 1         | Funkcjonalne    |
+| 2             | Przetwarzanie obrazu       | System powinien automatycznie skalować obraz, aby ułatwić odczyt tekstu z tablicy rejestracyjnej i przyspieszyć działanie programu. | 1         | Funkcjonalne    |
+| 3             | Wykrywanie tablic rejestracyjnych | System powinien automatycznie wykrywać obecność unikalnych tablic rejestracyjnych na obrazie lub pliku wideo, aby użytkownik nie musiał ręcznie zaznaczać tablic. | 1         | Funkcjonalne    |
+| 4             | Segmentacja tablic         | System powinien automatycznie wyodrębniać tablice rejestracyjne z tła obrazu, aby tekst był bardziej czytelny. | 1         | Funkcjonalne    |
+| 5             | Odczyt tekstu z tablic     | System powinien umożliwiać odczyt tekstu z wykrytej tablicy rejestracyjnej, aby użytkownik mógł uzyskać tekst w formie cyfrowej oraz wizualnej. | 1         | Funkcjonalne    |
+| 6            | Wytrenowanie systemu, Testowanie i Ocena         | System powinien zostać nauczony maszynowo rozpoznawania tablic rejestracyjnych oraz przetestowany, aby użytkownik miał pewność co do jakości wyników. | 1         | Niefunkcjonalne |
+| 7            | Dokumentacja               | Powinna istnieć szczegółowa dokumentacja techniczna zawierająca spis potrzebnych bibliotek oraz przetrenowany model. | 1         | Niefunkcjonalne |
+| 8            | Przykładowe obrazy         | Powinny być udostępnione przykładowe obrazy i film do testowania oraz wyniki, aby użytkownik mógł przetestować system przed jego użyciem. | 2         | Niefunkcjonalne |
  
 ## IV. Architektura systemu/oprogramowania
  
