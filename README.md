@@ -27,15 +27,32 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 | 7            | Dokumentacja               | Powinna istnieć szczegółowa dokumentacja techniczna zawierająca spis potrzebnych bibliotek oraz przetrenowany model. | 1         | Niefunkcjonalne |
 | 8            | Przykładowe obrazy         | Powinny być udostępnione przykładowe obrazy i film do testowania oraz wyniki, aby użytkownik mógł przetestować system przed jego użyciem. | 2         | Niefunkcjonalne |
  
-## IV. Architektura systemu/oprogramowania
+### IV. Architektura systemu/oprogramowania
  
-### Architektura rozwoju:
-- **Stos technologiczny:** Python, OpenCV, EasyOCR, YOLO (You Only Look Once)
-- **Narzędzia wspomagające:** Git (do wersjonowania kodu), PyCharm (do edycji kodu)
+#### a. Architektura rozwoju - stos technologiczny
+- Język programowania: Python 3.7
+- Biblioteki:
+  - OpenCV (Open Source Computer Vision)
+  - EasyOCR
+  - YOLO (You Only Look Once)
+- Narzędzia wspomagające:
+  - Git (do wersjonowania kodu)
+  - PyCharm Community (do edycji kodu)
  
-### Architektura uruchomieniowa:
-- **Stos technologiczny:** Python, OpenCV, EasyOCR, YOLO
-- **Środowisko uruchomieniowe:** System operacyjny z zainstalowanym Pythonem i wymaganymi bibliotekami (OpenCV, EasyOCR, etc.)
+#### b. Architektura uruchomieniowa - stos technologiczny
+- Język programowania: Python 3.7
+- Biblioteki:
+  - OpenCV (Open Source Computer Vision)
+  - EasyOCR
+  - YOLO (You Only Look Once)
+ 
+### Biblioteki:
+ 
+- **OpenCV (Open Source Computer Vision):** Biblioteka do przetwarzania obrazów i analizy wideo. Jest często używana do manipulacji obrazami, wykrywania obiektów, przetwarzania wideo itp.
+- **EasyOCR:** Biblioteka do rozpoznawania tekstu w obrazach. Umożliwia odczytywanie tekstu z obrazów, w tym tablic rejestracyjnych pojazdów.
+- **YOLO (You Only Look Once):** Implementacja algorytmu do detekcji obiektów w czasie rzeczywistym.
+- **PyCharm Community:** Środowisko programistyczne do edycji kodu w języku Python.
+- **Git:** System kontroli wersji do zarządzania kodem źródłowym.
  
 ## V. Testy
  
