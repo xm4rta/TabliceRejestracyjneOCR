@@ -48,7 +48,7 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 
 ## b.  Architektura uruchomieniowa - stos technologiczny
 
-PyCharm Community - zintegrowane środowisko programistyczne (IDE) opracowane przez firmę JetBrains, zaprojektowane specjalnie dla programistów pracujących w języku Python. Jest to bezpłatna wersja narzędzia, która oferuje pełen zakres funkcji, w tym edycję kodu, debugowanie, refaktoryzację, zarządzanie projektem, integrację z systemami kontroli wersji oraz obsługę bibliotek Pythona.
+**PyCharm Community - zintegrowane środowisko programistyczne (IDE) opracowane przez firmę JetBrains, zaprojektowane specjalnie dla programistów pracujących w języku Python. Jest to bezpłatna wersja narzędzia, która oferuje pełen zakres funkcji, w tym edycję kodu, debugowanie, refaktoryzację, zarządzanie projektem, integrację z systemami kontroli wersji oraz obsługę bibliotek Pythona.
 
  
 ## V. Testy
