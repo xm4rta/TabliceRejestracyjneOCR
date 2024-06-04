@@ -1,19 +1,19 @@
 # Dokumentacja projektu TabliceRejestracyjneOCR
  
 ## I. Charakterystyka oprogramowania
-**Nazwa skrócona:** TabliceRejestracyjneOCR
+**a. Nazwa skrócona:** TabliceRejestracyjneOCR
 
 
-**Nazwa pełna:** System Rozpoznawania Numerów Tablic Rejestracyjnych Ze Zdjęć i Filmów Z Wykorzystaniem Pythona, OpenCV i OCR
+**b. Nazwa pełna:** System Rozpoznawania Numerów Tablic Rejestracyjnych Ze Zdjęć i Filmów Z Wykorzystaniem Pythona, OpenCV i OCR
  
-**Krótki opis ze wskazaniem celów:**
+**c. Krótki opis ze wskazaniem celów:**
 System służy do automatycznego rozpoznawania tekstu w obrazach i filmach przy użyciu technologii OCR (Optical Character Recognition) zaimplementowanej w Pythonie z wykorzystaniem biblioteki OpenCV. Jego głównym celem jest konwersja tekstu z obrazów i filmów na edytowalny format, co pozwala na automatyzację procesów, poprawę dostępności treści oraz analizę tekstu w różnych zastosowaniach.
  
 ## II. Prawa autorskie 
-**Autorzy:** Marta Kosmowska, Dominik Malczyński, Adrian Chmielewski
+**a. Autorzy:** Marta Kosmowska, Dominik Malczyński, Adrian Chmielewski
 
 
-**Warunki licencyjne:**
+**b. Warunki licencyjne:**
 Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwala na jego swobodne używanie, modyfikowanie oraz dystrybucję, pod warunkiem, że wszelkie zmiany i pochodne prace również będą objęte tą samą licencją. Licencja ta zapewnia również, że kod źródłowy będzie dostępny dla użytkowników końcowych, umożliwiając im swobodę w badaniu, poprawianiu i dzieleniu się modyfikacjami.
  
 ## III. Specyfikacja wymagań
@@ -29,27 +29,27 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 | 7            | Dokumentacja               | Powinna istnieć szczegółowa dokumentacja techniczna zawierająca spis potrzebnych bibliotek oraz przetrenowany model. | 1         | Niefunkcjonalne |
 | 8            | Przykładowe obrazy         | Powinny być udostępnione przykładowe obrazy i film do testowania oraz wyniki, aby użytkownik mógł przetestować system przed jego użyciem. | 2         | Niefunkcjonalne |
  
-### IV. Architektura systemu/oprogramowania
+## IV. Architektura systemu/oprogramowania
  
-#### a. Architektura rozwoju - stos technologiczny
+## a. Architektura rozwoju - stos technologiczny
 - Język programowania: Python 3.7
-- Biblioteki:
-  - OpenCV (Open Source Computer Vision)
-  - EasyOCR
-  - YOLO (You Only Look Once)
-  - OS (Biblioteka do interakcji z systemem operacyjnym. Umożliwia wykonywanie operacji na plikach, katalogach itp.)
-  - NumPy (Popularna biblioteka do obliczeń numerycznych w języku Python. Zapewnia efektywne struktury danych do pracy z wielowymiarowymi tablicami i macierzami oraz funkcje do wykonywania operacji na tych danych.)
-  - CSV (Biblioteka do manipulacji plikami CSV (Comma Separated Values). Umożliwia czytanie i zapisywanie danych w formacie CSV.)
-  - Ultralytics.YOLO (Implementacja algorytmu YOLO (You Only Look Once) do detekcji obiektów w obrazach. YOLO jest popularnym algorytmem do detekcji obiektów w czasie rzeczywistym.)
-  - Sort.Sort (Implementacja algorytmu SORT (Simple Online and Realtime Tracking) do śledzenia obiektów w sekwencji obrazów.)
-  - Matplotlib.pyplot (Biblioteka do tworzenia wykresów i wizualizacji danych. Umożliwia generowanie różnych rodzajów wykresów, histogramów itp.)
-  - AST (Biblioteka do analizy i manipulacji kodem źródłowym Pythona. Może być używana do analizy składniowej i semantycznej kodu Pythona.)
-  - Pandas (Biblioteka do manipulacji danymi, szczególnie w przypadku danych tabelarycznych. Umożliwia łatwe wczytywanie, przetwarzanie i analizę danych.)
-  - SciPy.interpolate.interp1d (Biblioteka SciPy jest zbiorem narzędzi i algorytmów do obliczeń naukowych w Pythonie. Ta konkretna funkcja służy do interpolacji danych.)
-  - Filterpy (Biblioteka Pythona służąca do implementacji różnych filtrów Bayesowskich, takich jak filtr Kalmana, filtr cząsteczkowy i inne, wykorzystywanych do estymacji stanu w systemach dynamicznych.)
-- Narzędzia wspomagające:
-  - Git (do wersjonowania kodu)
-  - PyCharm Community (do edycji kodu)
+- Środowisko: Pycharm Community - zintegrowane środowisko programistyczne dla języka programowania Python firmy JetBrains.
+- Biblioteki/algorytymy:
+  - OpenCV (Open Source Computer Vision) - biblioteka do przetwarzania obrazów i wideo, oferująca narzędzia do analizy obrazów, detekcji obiektów i maszynowego uczenia.
+  - EasyOCR - biblioteka  do optycznego rozpoznawania znaków (Optical Character Recognition).
+  - NumPy -  biblioteka do obliczeń numerycznych. Zapewnia efektywne struktury danych do pracy z wielowymiarowymi tablicami i macierzami oraz funkcje do wykonywania operacji na tych danych.
+  - Matplotlib - biblioteka do tworzenia wykresów i wizualizacji danych.
+  - Pandas - biblioteka, zaprojektowana do manipulacji i analizy danych, umożliwiająca łatwą pracę z danymi w formie tabelarycznej.
+  - SciPy - biblioteka  do zaawansowanych obliczeń numerycznych i analizy danych.
+  - Filterpy - biblioteka w języku awierająca implementacje różnych filtrów Bayesowskich oraz algorytmów śledzenia obiektów.
+  - Ultralytics.YOLO - biblioteka, korzystająca z algorytmu detekcji obiektów YOLO (You Only Look Once), umożliwiająca szybkie tworzenie systemów, które potrafią identyfikować i klasyfikować obiekty na obrazach i wideo, wykorzystując techniki uczenia maszynowego.
+  - Sort - algorytm śledzenia wielu obiektów w czasie rzeczywistym w sekwencjach wideo
+- Platforma wspomagająca: Github - platforma internetowa, która umożliwia programistom przechowywanie, zarządzanie i udostępnianie kodu źródłowego projektów oraz współpracę nad nimi przy użyciu systemu kontroli wersji Git.
+
+## b.  Architektura uruchomieniowa - stos technologiczny
+
+PyCharm Community - zintegrowane środowisko programistyczne (IDE) opracowane przez firmę JetBrains, zaprojektowane specjalnie dla programistów pracujących w języku Python. Jest to bezpłatna wersja narzędzia, która oferuje pełen zakres funkcji, w tym edycję kodu, debugowanie, refaktoryzację, zarządzanie projektem, integrację z systemami kontroli wersji oraz obsługę bibliotek Pythona.
+
  
 ## V. Testy
  
