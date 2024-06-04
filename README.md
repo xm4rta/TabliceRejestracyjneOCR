@@ -64,9 +64,17 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
  
 ### Scenariusze testów:
 **a. Test obsługi formatów:** Weryfikacja, czy system obsługuje wszystkie wymagane formaty obrazów (JPEG) oraz filmów (MP4).
+
+
 **b. Test wykrywania tablic:** Sprawdzenie skuteczności wykrywania tablic rejestracyjnych na obrazach lub filmach.
+
+
 **c. Test segmentacji:** Weryfikacja poprawności segmentacji tablic rejestracyjnych z tła obrazu.
+
+
 **d. Test odczytu tekstu:** Ocena dokładności odczytu tekstu z wykrytych tablic rejestracyjnych.
+
+
  
 ### Sprawozdanie z wykonania scenariuszy testów:
 Wszystkie testy zostały przeprowadzone pomyślnie. System poprawnie obsługuje wymagane formaty, skutecznie wykrywa tablice rejestracyjne, prawidłowo segmentuje je z tła oraz dokładnie odczytuje tekst.
