@@ -1,7 +1,9 @@
-# Dokumentacja Projektu: Rozpoznawanie Tekstu w Obrazach z Wykorzystaniem Pythona i OpenCV
+# Dokumentacja projektu TabliceRejestracyjneOCR
  
 ## I. Charakterystyka oprogramowania
 **Nazwa skrócona:** TabliceRejestracyjneOCR
+
+
 **Nazwa pełna:** System Rozpoznawania Numerów Tablic Rejestracyjnych Ze Zdjęć i Filmów Z Wykorzystaniem Pythona, OpenCV i OCR
  
 **Krótki opis ze wskazaniem celów:**
