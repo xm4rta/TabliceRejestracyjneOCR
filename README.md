@@ -41,15 +41,15 @@ Oprogramowanie jest objęte licencją GNU General Public License v3.0, co pozwal
 **1.3. Biblioteki/algorytymy:**
 
 
-  - OpenCV (Open Source Computer Vision) - biblioteka do przetwarzania obrazów i wideo, oferująca narzędzia do analizy obrazów, detekcji obiektów i maszynowego uczenia.
-  - EasyOCR - biblioteka  do optycznego rozpoznawania znaków (Optical Character Recognition).
-  - NumPy -  biblioteka do obliczeń numerycznych. Zapewnia efektywne struktury danych do pracy z wielowymiarowymi tablicami i macierzami oraz funkcje do wykonywania operacji na tych danych.
-  - Matplotlib - biblioteka do tworzenia wykresów i wizualizacji danych.
-  - Pandas - biblioteka, zaprojektowana do manipulacji i analizy danych, umożliwiająca łatwą pracę z danymi w formie tabelarycznej.
-  - SciPy - biblioteka  do zaawansowanych obliczeń numerycznych i analizy danych.
-  - Filterpy - biblioteka w języku awierająca implementacje różnych filtrów Bayesowskich oraz algorytmów śledzenia obiektów.
-  - Ultralytics.YOLO - biblioteka, korzystająca z algorytmu detekcji obiektów YOLO (You Only Look Once), umożliwiająca szybkie tworzenie systemów, które potrafią identyfikować i klasyfikować obiekty na obrazach i wideo, wykorzystując techniki uczenia maszynowego.
-  - Sort - algorytm śledzenia wielu obiektów w czasie rzeczywistym w sekwencjach wideo.
+  **- OpenCV (Open Source Computer Vision)** - biblioteka do przetwarzania obrazów i wideo, oferująca narzędzia do analizy obrazów, detekcji obiektów i maszynowego uczenia.
+  **- EasyOCR** - biblioteka  do optycznego rozpoznawania znaków (Optical Character Recognition).
+  **- NumPy** -  biblioteka do obliczeń numerycznych. Zapewnia efektywne struktury danych do pracy z wielowymiarowymi tablicami i macierzami oraz funkcje do wykonywania operacji na tych danych.
+  **- Matplotlib** - biblioteka do tworzenia wykresów i wizualizacji danych.
+  **- Pandas** - biblioteka, zaprojektowana do manipulacji i analizy danych, umożliwiająca łatwą pracę z danymi w formie tabelarycznej.
+  **- SciPy** - biblioteka  do zaawansowanych obliczeń numerycznych i analizy danych.
+  **- Filterpy** - biblioteka w języku awierająca implementacje różnych filtrów Bayesowskich oraz algorytmów śledzenia obiektów.
+  **- Ultralytics.YOLO** - biblioteka, korzystająca z algorytmu detekcji obiektów YOLO (You Only Look Once), umożliwiająca szybkie tworzenie systemów, które potrafią identyfikować i klasyfikować obiekty na obrazach i wideo, wykorzystując techniki uczenia maszynowego.
+  **- SORT** - algorytm śledzenia wielu obiektów w czasie rzeczywistym w sekwencjach wideo.
 
 
 **1.4. Platforma wspomagająca:** Github - platforma internetowa, która umożliwia programistom przechowywanie, zarządzanie i udostępnianie kodu źródłowego projektów oraz współpracę nad nimi przy użyciu systemu kontroli wersji Git.
